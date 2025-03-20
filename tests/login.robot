@@ -13,3 +13,11 @@ Deve logar com sucesso
     ...                 app=${EXECDIR}/apps/markx.apk
     ...                 udid=emulator-5554
     ...                 autoGrantPermissions=true
+
+    Input Text          xpath=//*[@resource-id="apiIp"]    192.168.1.8
+
+    Click Element       xpath=//*[@resource-id="signInButton"] 
+
+
+    Wait Until Page Contains        Minhas tarefas    5
+    Sleep     10
