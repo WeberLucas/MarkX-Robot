@@ -14,6 +14,7 @@ Deve logar com sucesso
     ...                 udid=emulator-5554
     ...                 autoGrantPermissions=true
 
+    Wait Until Page Contains    Endereço IP da Api    10
     Input Text          xpath=//*[@resource-id="apiIp"]    192.168.1.8
 
     Click Element       xpath=//*[@resource-id="signInButton"] 
@@ -21,3 +22,5 @@ Deve logar com sucesso
 
     Wait Until Page Contains        Minhas tarefas    5
     Sleep     10
+
+    Close Application 
