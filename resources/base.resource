@@ -4,6 +4,8 @@ Documentation    Tudo deve começar aqui nesse arquivo
 
 Library    AppiumLibrary
 
+Resource    screens/login.resource
+
 *** Keywords ***
 Start session
     
