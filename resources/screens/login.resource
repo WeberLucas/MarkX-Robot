@@ -4,7 +4,7 @@ Library    AppiumLibrary
 
 *** Variables ***
 
-${API_IP}    192.168.1.7
+${API_IP}    192.168.1.8
 
 *** Keywords ***
 Do login
